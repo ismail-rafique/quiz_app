@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #333;
+}
+
+div#container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+div.header {
+    display: flex;
+    padding: 10px;
+    color: #dee;
+    justify-content: space-between;
+}
+
+.header #time {
+    font-size: 1.2em;
+}
+
+div#quiz {
+    border: 2px solid #dee;
+    color: #dee;
+    padding: 10px;
+}
+
+#quiz #question, #quiz span {
+    font-size: 1.2em;
+    color: #dee;
+}
+
+#quiz #question {
+    margin: 10px 5px 20px 5px;
+}
+
+#quiz .option {
+    margin-right: 10px;
+}
+
+#quiz div span {
+    display: block;
+    margin: 10px 5px;
+}
+
+#quiz #next {
+    padding: 10px 25px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    background-color: #333;
+    color: #dee;
+    border: 1px solid #dee;
+    float: right;
+}
+
+#quiz #clear {
+    clear: both;
+}
+
+div.footer {
+    background-color: #555;
+    color: #abb;
+    padding: 5px;
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+.footer span {
+    font-weight: bold;
+}
+
+/**********login form***********/
+
+div#login {
+    width: 40%;
+    margin: 10px auto;
+}
+
+#login span {
+    display: block;
+    color: #aaa;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#login input {
+    margin-top: 5px;
+    width: 100%;
+    font-size: 1.2em;
+    padding: 10px;
+
+}
+
+#login button {
+    display: block;
+    margin-top: 20px;
+    background-color: #333;
+    color: #dee;
+    border: 1px solid #dee;
+    padding: 10px;
+    font-size: 1.2em;
+
+}
+
+#info {
+    border: 1px solid #aaa;
+    padding: 10px;
+    color: #aaa;
+    margin: 50% auto 0px auto;
+}
+#info span {
+    display: inline;
+}
+
+
+/******** Result *******/
+#greet {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #dee;
+    margin-top: 15%;
+}
+
+#remarks {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    color: #dee;
+    margin-top: 20px;
+}
+
+#percentage {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 20px;
+    color: #dee;
+}
